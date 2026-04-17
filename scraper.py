@@ -75,9 +75,9 @@ df = df.reset_index(drop=True)
 
 df.head()
 
-df.to_csv("image_1993_data.csv", index=False)
+df.to_csv("data.csv", index=False)
 
 print("Data saved successfully!")
 
 import os
-print(os.path.abspath("image_1993_data.csv"))
+print(os.path.abspath("data.csv"))
